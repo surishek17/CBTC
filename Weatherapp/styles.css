@@ -1,0 +1,65 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    animation: gradient 15s ease infinite;
+}
+
+
+/* Styling for the container that holds the content */
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+/* Styling for the input field */
+input[type="text"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1e608b;
+}
+
+/* Additional styling for the weather information section */
+.weather-info {
+    margin-top: 20px;
+}
+
+/* Class to hide the weather display section initially */
+.hidden {
+    display: none;
+}
+
+/* Styling for the weather icon */
+img {
+    width: 100px;
+}

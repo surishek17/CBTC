@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherVue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WeatherVue</h1>
+        <div class="weather-info">
+            <!-- Input field for the user to enter a city name -->
+            <input type="text" id="city" placeholder="Enter city name">
+            <!-- Button to trigger the weather fetch -->
+            <button id="getWeather">Get Weather</button>
+            <!-- Section to display the weather information -->
+            <div id="weatherDisplay" class="hidden">
+                <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <img id="icon" src="" alt="Weather Icon">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
